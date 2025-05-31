@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Historias Famosas</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- Animate.css -->
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <style>
@@ -16,7 +16,7 @@
             padding: 0;
         }
 
-        /* Header fijo con logo */
+        
         nav {
             position: fixed;
             top: 0;
@@ -73,7 +73,7 @@
             color: #ffca28;
         }
 
-        /* Espacio debajo del nav */
+        
         .header-space {
             height: 80px;
         }
