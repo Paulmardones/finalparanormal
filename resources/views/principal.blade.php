@@ -2,88 +2,124 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Historias Paranormales</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Inicio - Historias Paranormales</title>
+
+   
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #111;
-            color: #f2f2f2;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
-        header {
-            background-color: #222;
-            padding: 1rem;
-            text-align: center;
+
+        body, html {
+            height: 100%;
+            font-family: 'Cormorant Garamond', serif;
         }
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        nav {
-            margin-top: 1rem;
-        }
-        .nav-boton {
-            display: inline-block;
-            margin: 0 0.5rem;
-            padding: 0.5rem 1rem;
-            background-color: #5c6bc0;
+
+        body {
+            background: url('{{ asset('images/flying-saucer-adobestock_88487610-(1)-2017.jpg') }}') no-repeat center center fixed;
+            background-size: cover;
             color: white;
-            border-radius: 4px;
+        }
+
+        .sidebar {
+            height: 100vh;
+            width: 230px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #0e0e1a;
+            padding-top: 20px;
+            z-index: 1000;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            color: red;
+            margin-bottom: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #fff;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .sidebar a:hover {
+            background-color: #1c1c2e;
+        }
+
+        nav {
+            background-color: black;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 230px;
+        }
+
+        nav a {
+            color: rgb(169, 167, 156);
             text-decoration: none;
             font-weight: bold;
+            font-size: 1.1rem;
+            margin: 0 1rem;
+            transition: color 0.3s ease;
         }
-        .nav-boton:hover {
-            background-color: #7986cb;
+
+        nav a:hover {
+            color: #00ffff;
         }
+
         .contenido {
+            margin-left: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 80px);
+            text-align: center;
             padding: 2rem;
+            background-color: rgba(0, 0, 0, 0.6);
         }
-        .historia {
-            background-color: #1e1e1e;
-            border-left: 5px solid #5c6bc0;
+
+        h1 {
+            font-size: 3rem;
+            color: #ff2e2e;
             margin-bottom: 1rem;
-            padding: 1rem;
-            border-radius: 8px;
         }
-        .boton {
-            display: inline-block;
-            margin-top: 1.5rem;
-            padding: 0.8rem 1.5rem;
-            background-color: #5c6bc0;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        .boton:hover {
-            background-color: #7986cb;
+
+        p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Historias Paranormales</h1>
-        <p>OVNIs, fantasmas, encuentros extraños y más</p>
-        <nav>
-            <a class="nav-boton" href="/historias">Historias De La Comunidad</a>
-            <a class="nav-boton" href="/historiasfamosas">Historias famosas</a>
-        </nav>
-    </header>
-    <div class="contenido">
-        <h2>Últimas historias</h2>
 
-        <div class="historia">
-            <h3>Encuentro en la carretera</h3>
-            <p>Una noche oscura, vi una luz brillante suspendida en el cielo. Al acercarme, el motor del coche se apagó…</p>
-        </div>
-
-        <div class="historia">
-            <h3>Sombras en mi habitación</h3>
-            <p>Cada noche a las 3 a.m., una sombra cruza la habitación, aunque todas las puertas están cerradas…</p>
-        </div>
-
-        
+    <div class="sidebar">
+        <h2>🦇 Echo con ❤️ para la comunidad </h2>
+        <a href="/"><span>🏠</span> Iniciar sesión</a>
     </div>
+
+    <nav>
+        <a href="{{ url('/misterios-paranormales') }}">Historias de la Comunidad</a>
+        <a href="{{ url('/leyendas') }}">Historias Famosas</a>
+        <a href="{{ url('/investigaciones') }}">Lugares Extraños Famosos</a>
+    </nav>
+
+    <div class="contenido">
+        <h1>Una página dedicada para los curiosos y los amantes de lo inexplicable</h1>
+        <p>
+            Te invitamos a relatarnos tus historias y ser parte de la comunidad.
+        </p>
+    </div>
+
 </body>
 </html>
