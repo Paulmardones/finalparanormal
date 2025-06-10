@@ -4,16 +4,20 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Models\Historia;
-
+use App\Models\HistoriaFamosa;
 
 Route::get('/principal', function () {
     return view('principal');
 })->name('principal');
 
 
+
 Route::get('/historiasfamosas', function () {
-    return view('historiasfamosas');
-})->name('historiasfamosas');
+  
+    $historias = HistoriaFamosa::orderBy('created_at', 'desc')->get();
+    return view('historiasfamosas', compact('historias'));
+});
+
 
 
 Route::get('/historias', function (Request $request) {
@@ -67,7 +71,11 @@ Route::delete('/historias/{id}', function ($id) {
     $historia->delete();
 
     return redirect()->route('historias')->with('success', 'Historia eliminada correctamente.');
-})->name('historias.destroy');
+})->name('historias.destroy'); 
+
+
+
+
 
 
 
