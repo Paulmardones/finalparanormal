@@ -208,8 +208,8 @@
         <span>Paranormal Grandes Historias</span>
     </div>
     <div class="nav-links">
-        <a href="{{ url('/') }}">Inicio</a>
-        <a href="{{ url('/historiasfamosas') }}">Historias</a>
+        <a href="{{ url('/principal') }}">Inicio</a>
+        <a href="{{ url('/historias') }}">Historias</a>
     </div>
 </nav>
 

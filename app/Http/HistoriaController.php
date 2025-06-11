@@ -32,17 +32,3 @@ class HistoriaController extends Controller
         return view('historias.lista', compact('historias'));
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
