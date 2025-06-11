@@ -1,11 +1,10 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Historias Paranormales</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    
+
     <style>
         
 
@@ -362,7 +361,7 @@
         }
     </script>
     
-        </div>
+     
 
     <footer style="background-color: rgba(20, 0, 40, 0.85); padding: 2rem 1rem; text-align: center; box-shadow: 0 -4px 20px #7b1fa2; border-top: 2px solid #9c27b0; margin-top: 3rem;">
         <p style="color: #d1a1ff; font-size: 1.2rem; margin-bottom: 0.8rem; text-shadow: 1px 1px 5px #000;">Gracias por compartir lo inexplicable...</p>

@@ -8,4 +8,5 @@ class HistoriaFamosa extends Model
 {
     protected $table = 'historias_famosas';
     protected $fillable = ['titulo', 'contenido', 'imagen'];
+    public $timestamps = false;
 }
