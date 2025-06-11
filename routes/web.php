@@ -16,10 +16,6 @@ Route::get('/principal', function () {
 Route::get('/historiasfamosas', [HistoriaFamosaController::class, 'index'])->name('historiasfamosas');
 
 
-
-
-
-
 Route::get('/historias', function (Request $request) {
     $query = Historia::query();
 

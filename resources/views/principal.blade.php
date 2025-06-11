@@ -212,9 +212,9 @@
     </div>
 
     <nav id="navbar">
-        <a href="{{ url('/misterios-paranormales') }}">Historias de la Comunidad</a>
-        <a href="{{ url('/leyendas') }}">Historias Famosas</a>
-        <a href="{{ url('/investigaciones') }}">Lugares Extraños Famosos</a>
+        <a href="{{ url('/historias') }}">Historias de la Comunidad</a>
+        <a href="{{ url('/historiasfamosas') }}">Historias Famosas</a>
+       
     </nav>
 
     <div class="contenido" id="contenido">
@@ -222,9 +222,9 @@
         <p>
             Te invitamos a relatarnos tus historias y ser parte de la comunidad.
         </p>
-        <a href="{{ url('/historias/crear') }}">
-            <button class="boton-historia">📝 Contar mi historia</button>
-        </a>
+        
+        
+        
     </div>
 
     <script>
@@ -239,7 +239,7 @@
     </script>
    
     <footer style="background-color: rgba(20, 0, 40, 0.85); padding: 2rem 1rem; text-align: center; box-shadow: 0 -4px 20px #7b1fa2; border-top: 2px solid #9c27b0; margin-top: 0,5rem; display: flex; flex-direction: column; align-items: center;">
-        <p style="color: #d1a1ff; font-size: 1.2rem; margin-bottom: 0.8rem; text-shadow: 1px 1px 5px #000; text-align: center; width: 100%;">Gracias por compartir lo inexplicable...</p>
+        <p style="color: #d1a1ff; font-size: 1.2rem; margin-bottom: 0.8rem; text-shadow: 1px 1px 5px #000; text-align: center; width: 100%;">Gracias por compartir lo inexplicable</p>
         <div style="margin-top: 1rem;">
             <a href="#" style="color: #ba68c8; margin: 0 10px; font-size: 1.5rem;" title="Instagram"><i class="fab fa-instagram"></i></a>
             <a href="#" style="color: #ce93d8; margin: 0 10px; font-size: 1.5rem;" title="TikTok"><i class="fab fa-tiktok"></i></a>

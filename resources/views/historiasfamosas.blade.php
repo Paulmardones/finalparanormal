@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>HistoriasFamosas</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <style>
@@ -14,7 +13,7 @@
 
         body {
             margin: 0;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             color: #f0f0f0;
             background: 
                 linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(10, 10, 10, 0.95)), 
@@ -226,7 +225,7 @@
 </div>
 
 <footer>
-    <p>Gracias por compartir lo inexplicable...</p>
+    <p>Gracias por compartir lo inexplicable</p>
     <div>
         <a href="#"><i class="fab fa-instagram" title="Instagram"></i></a>
         <a href="#"><i class="fab fa-tiktok" title="TikTok"></i></a>
