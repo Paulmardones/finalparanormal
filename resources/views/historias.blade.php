@@ -8,6 +8,7 @@
     <style>
         
 
+      
         body {
            font-family: 'Montserrat', sans-serif;
            background: url('{{ asset('images/colton-sturgeon-EFQlS6SL9uw-unsplash.jpg') }}') no-repeat center center fixed;

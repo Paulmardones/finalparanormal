@@ -73,5 +73,3 @@ Route::delete('/historias/{id}', function ($id) {
 
 
 
-
-
